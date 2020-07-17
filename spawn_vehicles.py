@@ -85,7 +85,7 @@ def main():
 
         while True:
                 timestamp = world.wait_for_tick()
-#                spectator.set_transform(camera.get_transform())
+                spectator.set_transform(camera.get_transform())
                 time.sleep(0.1)
         
         
